@@ -1,0 +1,11 @@
+utils\RandomUtil.class
+pageBucket\PageReferences.class
+pages\ExamPortal\Registration.class
+utils\CalenderHandler.class
+pages\ExamPortal\HomePage.class
+configuration\EmailConfiguration.class
+utils\TestUtils.class
+pages\TestBase.class
+utils\ExcelUtility$ReadExcelFile.class
+utils\PropertyFileReader.class
+utils\ExcelUtility.class

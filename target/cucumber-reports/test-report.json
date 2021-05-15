@@ -1,0 +1,168 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2118792800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUpDriver(Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Launch exam portal",
+        "description": "",
+        "id": "title-of-your-feature;launch-exam-portal;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 668708600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6021075500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User launches exam portal URL",
+            "match": {
+              "location": "CommonSteps.userLaunchesExamPortalURL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 188200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User lands on home page",
+            "match": {
+              "location": "HomePageStepDef.user_lands_on_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on register button",
+            "match": {
+              "location": "HomePageStepDef.user_click_on_register_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 80200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User gets redirected to register page",
+            "match": {
+              "location": "RegistrationPageStepDef.user_gets_redirected_to_register_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1807200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User fills registration form with details",
+            "match": {
+              "location": "RegistrationPageStepDef.user_fills_registration_form_with_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Username",
+                  "Password",
+                  "Firstname",
+                  "Lastname",
+                  "Email",
+                  "Phone"
+                ]
+              },
+              {
+                "cells": [
+                  "TestUser",
+                  "NewPassord01!",
+                  "Test",
+                  "User",
+                  "test@gmail.com",
+                  "9123548414"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "clicks on Register button",
+            "match": {
+              "location": "RegistrationPageStepDef.clicks_on_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Registeration gets successful and alerts is displayed with user ID",
+            "match": {
+              "location": "RegistrationPageStepDef.registeration_gets_successful_and_alerts_is_displayed_with_user_id()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ExamPortalRegistration"
+          },
+          {
+            "name": "@RegisterHappyPath"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "Feature/Register.feature",
+    "tags": [
+      {
+        "name": "@ExamPortalRegistration",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

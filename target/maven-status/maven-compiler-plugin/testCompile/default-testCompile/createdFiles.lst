@@ -1,0 +1,5 @@
+stepDefinations\commonSteps\CommonSteps.class
+stepDefinations\examPortalSteps\HomePageStepDef.class
+stepDefinations\examPortalSteps\RegistrationPageStepDef.class
+runner\TestRunner.class
+stepDefinations\commonSteps\Hooks.class
