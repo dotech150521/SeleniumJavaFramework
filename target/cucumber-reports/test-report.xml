@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="8.813803">
-<testcase classname="Title of your feature" name="Launch exam portal" time="8.813803">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.790681">
+<testcase classname="Title of your feature" name="Launch exam portal" time="14.790681">
 <system-out><![CDATA[Given User launches exam portal URL.........................................passed
 When User lands on home page................................................passed
 Then User click on register button..........................................passed

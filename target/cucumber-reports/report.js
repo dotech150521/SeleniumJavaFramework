@@ -56,7 +56,7 @@ formatter.step({
         "Test",
         "User",
         "test@gmail.com",
-        "9123548414"
+        "+9123548414"
       ]
     }
   ]
@@ -162,7 +162,7 @@ formatter.step({
         "Test",
         "User",
         "test@gmail.com",
-        "9123548414"
+        "+9123548414"
       ]
     }
   ],

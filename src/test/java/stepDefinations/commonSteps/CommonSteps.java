@@ -20,8 +20,7 @@ public class CommonSteps extends PageReferences {
 
 	@Given("User launches exam portal URL")
 	public void userLaunchesExamPortalURL() throws InterruptedException {
-		String examPortalURL="";
-		examPortalURL =projectProperties.getProperty("examPortal");
+		String examPortalURL= projectProperties.getProperty("examPortal");
 		driver.get(examPortalURL);
 		logger.info("Exam Portal URL launched");
 		Thread.sleep(5000);

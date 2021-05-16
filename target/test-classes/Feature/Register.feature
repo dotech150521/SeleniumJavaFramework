@@ -9,7 +9,7 @@ Feature: Title of your feature
     Then User gets redirected to register page
     And User fills registration form with details
       | Username | Password      | Firstname | Lastname | Email          | Phone      |
-      | TestUser | NewPassord01! | Test      | User     | test@gmail.com | 9123548414 |
+      | TestUser | NewPassord01! | Test      | User     | test@gmail.com | +9123548414 |
     And clicks on Register button
     Then Registeration gets successful and alerts is displayed with user ID
 
