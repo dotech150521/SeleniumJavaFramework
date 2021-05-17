@@ -28,7 +28,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "name": "User click on register button",
+  "name": "User clicks on register button",
   "keyword": "Then "
 });
 formatter.step({
@@ -56,7 +56,7 @@ formatter.step({
         "Test",
         "User",
         "test@gmail.com",
-        "+9123548414"
+        "9823447223"
       ]
     }
   ]
@@ -66,7 +66,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "name": "Registeration gets successful and alerts is displayed with user ID",
+  "name": "Registration gets successful and alerts is displayed with user ID",
   "keyword": "Then "
 });
 formatter.examples({
@@ -123,7 +123,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User click on register button",
+  "name": "User clicks on register button",
   "keyword": "Then "
 });
 formatter.match({
@@ -162,7 +162,7 @@ formatter.step({
         "Test",
         "User",
         "test@gmail.com",
-        "+9123548414"
+        "9823447223"
       ]
     }
   ],
@@ -185,11 +185,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Registeration gets successful and alerts is displayed with user ID",
+  "name": "Registration gets successful and alerts is displayed with user ID",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "RegistrationPageStepDef.registeration_gets_successful_and_alerts_is_displayed_with_user_id()"
+  "location": "RegistrationPageStepDef.registration_gets_successful_and_alerts_is_displayed_with_user_id()"
 });
 formatter.result({
   "status": "passed"

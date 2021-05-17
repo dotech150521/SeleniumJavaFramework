@@ -32,7 +32,7 @@ public class HomePageStepDef extends PageReferences {
 		logger.info("Page Title verified");
 	}
 
-	@Then("User click on register button")
+	@Then("User clicks on register button")
 	public void user_click_on_register_button() throws InterruptedException {
 		homepage.clickOnRegister();
 	}

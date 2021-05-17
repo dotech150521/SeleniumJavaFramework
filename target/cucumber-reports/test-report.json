@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 2887675500,
+              "duration": 3367240100,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 665637900,
+              "duration": 737403800,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6057340600,
+              "duration": 6498050700,
               "status": "passed"
             },
             "line": 6,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 42244400,
+              "duration": 67356500,
               "status": "passed"
             },
             "line": 7,
@@ -58,11 +58,11 @@
           },
           {
             "result": {
-              "duration": 5134026900,
+              "duration": 5180141600,
               "status": "passed"
             },
             "line": 8,
-            "name": "User click on register button",
+            "name": "User clicks on register button",
             "match": {
               "location": "HomePageStepDef.user_click_on_register_button()"
             },
@@ -70,7 +70,7 @@
           },
           {
             "result": {
-              "duration": 149900,
+              "duration": 12965800,
               "status": "passed"
             },
             "line": 9,
@@ -82,7 +82,7 @@
           },
           {
             "result": {
-              "duration": 974700,
+              "duration": 768836800,
               "status": "passed"
             },
             "line": 10,
@@ -108,7 +108,7 @@
                   "Test",
                   "User",
                   "test@gmail.com",
-                  "+9123548414"
+                  "9823447223"
                 ]
               }
             ],
@@ -116,7 +116,7 @@
           },
           {
             "result": {
-              "duration": 9400,
+              "duration": 5071049200,
               "status": "passed"
             },
             "line": 13,
@@ -128,13 +128,13 @@
           },
           {
             "result": {
-              "duration": 5400,
+              "duration": 66200,
               "status": "passed"
             },
             "line": 14,
-            "name": "Registeration gets successful and alerts is displayed with user ID",
+            "name": "Registration gets successful and alerts is displayed with user ID",
             "match": {
-              "location": "RegistrationPageStepDef.registeration_gets_successful_and_alerts_is_displayed_with_user_id()"
+              "location": "RegistrationPageStepDef.registration_gets_successful_and_alerts_is_displayed_with_user_id()"
             },
             "keyword": "Then "
           }

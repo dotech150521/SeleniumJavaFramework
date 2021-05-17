@@ -1,36 +1,51 @@
 package stepDefinations.examPortalSteps;
 
+import cucumber.api.Scenario;
 import cucumber.api.java.en.Then;
 import io.cucumber.datatable.DataTable;
+import org.apache.log4j.Logger;
+import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import pageBucket.PageReferences;
+import pages.ExamPortal.Registration;
+import stepDefinations.commonSteps.Hooks;
+import utils.PropertyFileReader;
+
+import java.util.Properties;
 
 public class RegistrationPageStepDef extends PageReferences {
+    private static Properties projectProperties = PropertyFileReader.readPropertyFile();
+    private WebDriver driver;
+    private Logger logger = Logger.getLogger(HomePageStepDef.class);
+    private Scenario scenario;
 
-	@Then("User gets redirected to register page")
-	public void user_gets_redirected_to_register_page() {
+    public RegistrationPageStepDef() {
+        driver = Hooks.getDriver();
+        scenario = Hooks.getScenario();
+    }
 
-	}
+    @Then("User gets redirected to register page")
+    public void user_gets_redirected_to_register_page() {
+        registration = new Registration(driver);
+        String registrationPageUrl = projectProperties.getProperty("registrationPageUrl");
+        Assert.assertEquals(registrationPageUrl, registration.verifyRegistrationPage());
 
-	@Then("User fills registration form with details")
-	public void user_fills_registration_form_with_details(DataTable dataTable) {
-		// Write code here that turns the phrase above into concrete actions
-		// For automatic transformation, change DataTable to one of
-		// E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
-		// Map<K, List<V>>. E,K,V must be a String, Integer, Float,
-		// Double, Byte, Short, Long, BigInteger or BigDecimal.
-		//
-		// For other transformations you can register a DataTableType.
+    }
 
-	}
+    @Then("User fills registration form with details")
+    public void user_fills_registration_form_with_details(DataTable dataTable) {
+        registration.fillRegistrationForm(dataTable);
+    }
 
-	@Then("clicks on Register button")
-	public void clicks_on_register_button() {
+    @Then("clicks on Register button")
+    public void clicks_on_register_button() throws InterruptedException {
+        registration.clickOnRegisterButton();
+        Thread.sleep(5000);
+    }
 
-	}
+    @Then("Registration gets successful and alerts is displayed with user ID")
+    public void registration_gets_successful_and_alerts_is_displayed_with_user_id() {
 
-	@Then("Registeration gets successful and alerts is displayed with user ID")
-	public void registeration_gets_successful_and_alerts_is_displayed_with_user_id() {
-
-	}
+    }
 
 }
