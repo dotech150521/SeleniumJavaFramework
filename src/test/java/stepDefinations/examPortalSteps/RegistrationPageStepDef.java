@@ -40,7 +40,7 @@ public class RegistrationPageStepDef extends PageReferences {
     @Then("clicks on Register button")
     public void clicks_on_register_button() throws InterruptedException {
         registration.clickOnRegisterButton();
-        Thread.sleep(5000);
+        Thread.sleep(2000);
     }
 
     @Then("Registration gets successful and alerts is displayed with user ID")

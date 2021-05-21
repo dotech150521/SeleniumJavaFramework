@@ -32,7 +32,7 @@ public class HomePage extends TestBase {
 
     public void clickOnRegister() throws InterruptedException {
       registerButton.click();
-        Thread.sleep(5000);
+        Thread.sleep(2000);
     }
 
 
